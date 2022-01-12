@@ -1,6 +1,5 @@
-function numberOfDays(month,year){
-   
-    let date = new Date(year, month, 0).getDate();
-   
-    console.log(date);
+function solve(month, year){
+    let result = new Date(year, month,0).getDate();
+    console.log(result);
 }
+solve(2, 2021)

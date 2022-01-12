@@ -1,7 +1,6 @@
-function lengthAndText(text){
-    let length = text.length;
-    console.log(length);
-    console.log(text);
+function solve(input){
+    let inputLength = input.length;
+    console.log(inputLength);
+    console.log(input);
 }
-lengthAndText('Hello, JavaScript!')
-lengthAndText('strings are easy')
+solve('Hello, JavaScript!')

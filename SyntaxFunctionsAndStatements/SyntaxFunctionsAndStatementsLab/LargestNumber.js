@@ -1,8 +1,7 @@
-function largestNumber (firstNum, secondNum, thirdNum){
-    let result = Math.max(firstNum,secondNum,thirdNum);
+function solve(firstNum, secondNum, thirdNum){
+    let largest = [firstNum,secondNum,thirdNum].sort((a,b)=> a-b);
+    let result = largest.pop();
 
     console.log(`The largest number is ${result}.`);
 }
-
-largestNumber(5, -3, 16)
-largestNumber(-3, -5, -22.5)
+solve(-3, -5, -22.5)
